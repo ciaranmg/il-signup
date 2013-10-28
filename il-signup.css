@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#ILSignup {
+ width: 268px;
+ height: 125px;
+ background-image: url('./images/signup-background.gif');
+ background-repeat: no-repeat;
+ text-align: center;
+ padding-left: 16px;
+ padding-right: 16px;
+ margin-top: 6px;
+ margin-bottom: 6px;
+}
+
+#ILSignup.large {
+	height: 250px;
+	background-image: url('./images/large-signup-background.gif');
+	background-repeat: no-repeat;
+ 	text-align: center;
+}
+
+#ILSignup.coreg {
+	height: 200px;
+	background-image: url('./images/medium-signup-background.gif');
+}
+
+div #ILSignup.center {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#ILSignup.left {
+	float: left;
+	margin: 4px;
+}
+
+#ILSignup.right {
+	float: right;
+	margin: 4px;
+}
+
+
+#ILSignup p {
+	padding-top: 18px;
+	font-size: 1.2em;
+}
+
+
+#ILSignupForm .ctabutton {
+	border: 1px solid #545454;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-image: url('./images/button-background.gif');
+	background-repeat: repeat-x;
+	background-position: center center;
+	padding: 4px;
+	margin: 4px;
+	font-weight: bold;
+}
+
+#ILSignupForm input {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid black;
+	padding: 4px;
+	background-color: #EEEEFF;
+}
