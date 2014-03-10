@@ -1,10 +1,10 @@
-=IL Signup Plugin=
+## IL Signup Plugin
 
 The IL signup plugin can be used to insert e-letter signup boxes in your Wordpres pages or posts. Use the Shortcode syntax outlined below to enable it. The plugin is designed to be used with the Agora Signup App to handle the received data.
 
 
 
-==Shortcode==
+### Shortcode
 
 The basic short code is: [ilsignup] Using the attributes you can customize the signup box.
 
